@@ -2,7 +2,7 @@ import axios from 'axios'
 import { getProducts } from '../reducers/ProductReducer';
 
 export const asyncGetProducts= ()=>async(dispatch,getstate) =>{
-    // console.log(getstate) 
+    // console.log(getstate()) 
      try{
         const response = await axios.get("https://fakestoreapi.com/products");
         // console.log(response.data)
