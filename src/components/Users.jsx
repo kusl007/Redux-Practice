@@ -14,7 +14,7 @@ export default function Users() {
 
   return (
    <div className="mx-auto  container p-10 mt-5  bg-red-100 w-[90%]">
-    <div className="text-2xl font-bold  text-red-900"> Userlist</div>
+    <div className="text-2xl font-bold  text-red-900"> User list</div>
     {users.map((user,index)=>(
       <div key={user.id}>
       <h1>

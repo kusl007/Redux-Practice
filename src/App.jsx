@@ -13,6 +13,7 @@ const App = () => {
         <Link to ="/users">Users</Link>
         <Link to ="/products">Products</Link>
       </nav>
+      <hr className='my-5' />
       
     <Routes>
       <Route path="/" element={<Home/>} />
